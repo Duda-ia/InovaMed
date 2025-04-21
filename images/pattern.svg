@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1000" height="600" viewBox="0 0 1000 600" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <pattern id="bars" x="0" y="0" width="200" height="200" patternUnits="userSpaceOnUse">
+            <!-- Terracotta bar -->
+            <rect x="0" y="0" width="40" height="200" fill="#C17C74" transform="skewX(-15)"/>
+            <!-- Light blue bar -->
+            <rect x="50" y="0" width="40" height="200" fill="#8CB0D4" transform="skewX(-15)"/>
+            <!-- Gold bar -->
+            <rect x="100" y="0" width="40" height="200" fill="#D4B98C" transform="skewX(-15)"/>
+            <!-- Navy blue bar -->
+            <rect x="150" y="0" width="40" height="200" fill="#414B82" transform="skewX(-15)"/>
+        </pattern>
+    </defs>
+    <rect width="100%" height="100%" fill="url(#bars)" opacity="0.1"/>
+</svg> 

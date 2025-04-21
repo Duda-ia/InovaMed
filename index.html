@@ -3,100 +3,208 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>InovaMed - Educação Médica de Excelência</title>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>InovaMed - Inovação & Saúde</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.0/css/all.css">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <header>
-        <div class="container">
-            <nav>
-                <a href="index.html" class="logo">
-                    <img src="images/logo.svg" alt="InovaMed Logo">
-                </a>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="pages/pos-graduacao.html">Pós Graduação</a></li>
-                    <li><a href="pages/curta-duracao.html">Curta Duração</a></li>
-                    <li><a href="pages/in-company.html">Projetos In Company</a></li>
-                    <li><a href="pages/parceiros.html">Parceiros</a></li>
-                </ul>
-            </nav>
-        </div>
+        <nav>
+            <a href="/" class="logo">
+                <img src="images/LogoInovMed.png" alt="InovaMed">
+            </a>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="#quem-somos">Quem Somos</a></li>
+                <li class="dropdown">
+                    <a href="#">Cursos</a>
+                    <div class="dropdown-content">
+                        <a href="pages/graduacao.html">Graduação</a>
+                        <a href="pages/pos-graduacao.html">Pós Graduação</a>
+                        <a href="pages/in-company.html">Parceiros In Company</a>
+                    </div>
+                </li>
+                <li><a href="#modelo-negocio">Modelo de Negócio</a></li>
+                <li><a href="#contato" class="button">Fale Conosco</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <section id="home" class="hero">
+    <section class="hero">
+        <div class="hero-content">
+            <h1>InovMed</h1>
+            <p>Inovação & Saúde</p>
+            <a href="#quem-somos" class="button">Conheça Nossas Propostas</a>
+        </div>
+    </section>
+
+    <section id="quem-somos">
         <div class="container">
-            <h1>Educação Médica de Excelência</h1>
-            <p>Transformando a educação médica através de cursos inovadores e práticos</p>
-            <div class="cta-buttons">
-                <a href="#pos-graduacao" class="button">Conheça Nossos Cursos</a>
-                <a href="#contato" class="accent-button">Fale Conosco</a>
+            <div class="section-title">
+                <h2>Quem Somos</h2>
+            </div>
+            <div class="about-content">
+                <p>Nós somos a INOVMED, uma nova era na educação em saúde, onde a inovação e a prática se unem para criar soluções reais.</p>
+                <p>Nosso projeto de ensino baseado em projetos de inovação em saúde visa revolucionar a forma como preparamos os futuros profissionais da área.</p>
             </div>
         </div>
     </section>
 
-    <section id="pos-graduacao">
+    <section id="declaracao-problema" class="light-bg">
         <div class="container">
             <div class="section-title">
-                <h2>Pós Graduação</h2>
-                <p>Programas de especialização para profissionais da saúde</p>
+                <h2>Declaração do Problema</h2>
             </div>
-            <div class="course-grid">
-                <div class="course-card">
-                    <img src="images/pos-grad-1.jpg" alt="Curso de Pós Graduação">
-                    <div class="course-card-content">
-                        <h3>MBA em Gestão em Saúde</h3>
-                        <p>Desenvolva habilidades de gestão específicas para o setor de saúde.</p>
-                        <a href="https://trevisan.edu.br/tipo/pos-graduacao-mba/?tipo=pos-graduacao-mba" class="btn">Saiba mais</a>
+            <div class="process-steps">
+                <div class="timeline-line"></div>
+                <div class="process-step">
+                    <div class="timeline-dot"></div>
+                    <div class="process-step-content">
+                        <h3><span class="card-icon">💼</span> Solução de dores nas empresas</h3>
+                        <p>Identificamos e resolvemos os principais desafios enfrentados pelas empresas na área da saúde.</p>
                     </div>
                 </div>
-                <!-- Add more course cards as needed -->
-            </div>
-        </div>
-    </section>
-
-    <section id="curta-duracao">
-        <div class="container">
-            <div class="section-title">
-                <h2>Cursos de Curta Duração</h2>
-                <p>Atualização profissional em formato intensivo</p>
-            </div>
-            <div class="course-grid">
-                <div class="course-card">
-                    <img src="images/curta-duracao-1.jpg" alt="Curso de Curta Duração">
-                    <div class="course-card-content">
-                        <h3>Gestão de Clínicas</h3>
-                        <p>Aprenda as melhores práticas de gestão para clínicas médicas.</p>
-                        <a href="https://trevisan.edu.br/tipo/pos-graduacao-mba/?tipo=pos-graduacao-mba" class="btn">Saiba mais</a>
+                <div class="process-step">
+                    <div class="timeline-dot"></div>
+                    <div class="process-step-content">
+                        <h3><span class="card-icon">💡</span> Criação de Cultura de inovação</h3>
+                        <p>Implementamos processos e metodologias que fomentam a inovação contínua nas organizações.</p>
                     </div>
                 </div>
-                <!-- Add more course cards as needed -->
+                <div class="process-step">
+                    <div class="timeline-dot"></div>
+                    <div class="process-step-content">
+                        <h3><span class="card-icon">⚙️</span> Soluções inovadoras</h3>
+                        <p>Desenvolvemos e implementamos soluções tecnológicas e processos inovadores para o setor da saúde.</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
-    <section id="in-company">
+    <section id="proposta-valor" class="light-bg">
         <div class="container">
             <div class="section-title">
-                <h2>Projetos In Company</h2>
-                <p>Desenvolvimento de programas personalizados para instituições</p>
+                <h2>Proposta de Valor</h2>
             </div>
-            <div class="course-grid">
-                <!-- Project cards will be added here -->
+            <div class="partner-benefits">
+                <div class="benefit-card">
+                    <h3>B2B</h3>
+                    <ul>
+                        <li>Soluções práticas e criativas para desafios reais.</li>
+                        <li>Acesso a inovação e redução de custos com inovação.</li>
+                        <li>Identificação de talentos.</li>
+                    </ul>
+                </div>
+                <div class="benefit-card">
+                    <h3>B2C</h3>
+                    <ul>
+                        <li>Experiência prática em saúde.</li>
+                        <li>Mentoria.</li>
+                        <li>Networking com empresas.</li>
+                        <li>Oportunidades de emprego ou estágio.</li>
+                    </ul>
+                </div>
             </div>
         </div>
     </section>
 
-    <section id="parceiros">
+    <section id="modelo-negocio">
         <div class="container">
             <div class="section-title">
-                <h2>Nossos Parceiros</h2>
-                <p>Instituições que compartilham nossa visão de excelência</p>
+                <h2>Modelo de Negócio</h2>
             </div>
-            <div class="partners">
-                <!-- Partner logos will be added here -->
+            <div class="business-model-table">
+                <div class="row header">
+                    <div class="col category"></div>
+                    <div class="col">
+                        <h3>B2B</h3>
+                    </div>
+                    <div class="col">
+                        <h3>B2C</h3>
+                    </div>
+                    <div class="col">
+                        <h3>Hackathon</h3>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col category">
+                        <h4>Preços</h4>
+                    </div>
+                    <div class="col">
+                        <p class="price">R$4.000/ Mês por membro</p>
+                    </div>
+                    <div class="col">
+                        <p class="price">R$699/ Mês</p>
+                    </div>
+                    <div class="col">
+                        <p class="price">R$100/ Inscrição</p>
+                        <p class="price-note">6.000 a 50.000/ Patrocínios</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col category">
+                        <h4>Entregas</h4>
+                    </div>
+                    <div class="col">
+                        <ul class="features-list">
+                            <li><span class="icon">🎯</span> 01 Dor</li>
+                            <li><span class="icon">📊</span> % Propriedade Intectual</li>
+                            <li><span class="icon">📱</span> Mídia Kit Divulgação</li>
+                            <li><span class="icon">👥</span> Membro no Painel Principal</li>
+                            <li><span class="icon">👨‍🏫</span> 03 Mentores</li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <ul class="features-list">
+                            <li><span class="icon">🎓</span> Pós-Graduação</li>
+                            <li><span class="icon">🤝</span> Integração ao Time B2B</li>
+                            <li><span class="icon">🔍</span> Visão de Mercado</li>
+                            <li><span class="icon">✍️</span> Ensino na Prática</li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <ul class="features-list">
+                            <li><span class="icon">💡</span> Soluções de Inovação</li>
+                            <li><span class="icon">🌟</span> Suporte e consultoria de excelência incluídos</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="team" class="light-bg">
+        <div class="container">
+            <div class="section-title">
+                <h2>Nossa Equipe</h2>
+            </div>
+            <div class="team-grid">
+                <div class="team-member">
+                    <img src="images/team/lilian-arai.jpg" alt="Founder">
+                    <h3>DRA. LILIAN ARAI</h3>
+                    <p>Founder</p>
+                </div>
+                <div class="team-member">
+                    <img src="images/team/bruno-borghi.jpg" alt="Founder">
+                    <h3>BRUNO BORGHI</h3>
+                    <p>Founder</p>
+                </div>
+                <div class="team-member">
+                    <img src="images/team/leonardo-tomiatti.jpg" alt="Founder">
+                    <h3>LEONARDO TOMIATTI</h3>
+                    <p>Founder</p>
+                </div>
+                <div class="team-member">
+                    <img src="images/team/lourival-belizario.jpg" alt="Founder">
+                    <h3>LOURIVAL BELIZARIO</h3>
+                    <p>Founder</p>
+                </div>
             </div>
         </div>
     </section>
@@ -106,12 +214,13 @@
             <div class="footer-content">
                 <div class="footer-section">
                     <h3>InovaMed</h3>
-                    <p>Educação Médica de Excelência</p>
+                    <p>Inovação & Saúde</p>
                 </div>
                 <div class="footer-section">
                     <h3>Contato</h3>
-                    <p>Email: contato@inovamed.com.br</p>
-                    <p>Telefone: (11) 1234-5678</p>
+                    <p>Email: lori@inovmed.com.br</p>
+                    <p>Website: www.inovmed.com.br</p>
+                    <p>Hub inovahc</p>
                 </div>
                 <div class="footer-section">
                     <h3>Redes Sociais</h3>

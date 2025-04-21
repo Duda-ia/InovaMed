@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="200" height="60" viewBox="0 0 200 60" xmlns="http://www.w3.org/2000/svg">
-    <path d="M38,15 L38,45 M25,30 L51,30" stroke="#ffffff" stroke-width="8" stroke-linecap="round"/>
-    <circle cx="38" cy="10" r="8" fill="#4ecdc4"/>
-    <text x="60" y="40" font-family="Arial" font-size="28" font-weight="bold" fill="#ffffff">inovmed</text>
+<svg width="40" height="30" viewBox="0 0 40 30" xmlns="http://www.w3.org/2000/svg">
+    <g transform="translate(0, 0)">
+        <!-- Terracotta bar -->
+        <rect x="0" y="0" width="8" height="30" fill="#C17C74" transform="skewX(-15)"/>
+        <!-- Light blue bar -->
+        <rect x="11" y="0" width="8" height="30" fill="#8CB0D4" transform="skewX(-15)"/>
+        <!-- Gold bar -->
+        <rect x="22" y="0" width="8" height="30" fill="#D4B98C" transform="skewX(-15)"/>
+        <!-- Navy blue bar -->
+        <rect x="33" y="0" width="8" height="30" fill="#414B82" transform="skewX(-15)"/>
+    </g>
 </svg> 
